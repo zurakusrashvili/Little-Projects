@@ -1,0 +1,223 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+@font-face{
+   font-family: bpg;
+   src: url('../font/bpg_nino_mtavruli_normal.ttf');
+ }
+
+ @font-face{
+  font-family: arial;
+  src: url('../font/bpg_arial_2009.ttf');
+}
+ 
+a, a:hover{
+  text-decoration: none;
+}
+
+.carousel-item {
+  height: 730px;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ .z-in{
+   z-index: 9999;
+   width: 100%;
+ }
+ 
+ .z-in:first-child{
+  background-color: #343632e6;
+ }
+
+ .z-in:nth-child(2){
+  top: 2.5rem;
+ }
+
+ .leng .list-inline-item:not(:last-child) {
+  margin-right: 0rem;
+  padding: 8px 0 7px;
+}
+
+.leng .list-inline-item a {
+ font-size: 15px;
+ color: #ffffff;
+ font-family: bpg;
+}
+
+
+.menu .list-inline-item:not(:last-child) {
+  margin-right: 25px;
+  padding: 8px 0 7px;
+}
+
+.menu .list-inline-item a {
+ font-size: 15px;
+ color: #ffffff;
+ font-family: bpg;
+}
+
+.dropdown-toggle::after {
+ display: none;
+}
+
+.nav-link{
+  font-size: 17px;
+  font-family: bpg;
+  color: #6b6b6b;
+}
+
+.nav-item:first-child .nav-link img{
+  position: relative;
+  top: -8px;
+  padding-right: 7px;
+}
+
+.nav-link {
+  display: block;
+  padding: .7rem 1rem .2rem;
+}
+
+.navbar{
+  padding: .83rem 1rem;
+}
+
+.logo{
+  position: relative;
+  top: 7px;
+}
+
+.nav-link img{
+  padding-right: 15px;
+}
+
+.navbar::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: -2px;
+  height: 1px;
+  left: 0;
+  background-color: #fff;
+}
+
+.dropdown-item{
+  font-family: arial;
+  font-size: 14px;
+  color: #4b4b4b;
+  padding: .7rem 1.1rem;
+}
+
+.dropdown-item:not(:last-child){
+  border-bottom: 1px solid #c3cbcc;
+}
+
+.dropdown-menu{
+  padding: 0 0;
+  min-width: 17rem;
+  border-radius: 5px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  margin: 0.9rem 0 0;
+  border:1px solid #c3cbcb;
+}
+
+.dropdown-menu::after{
+  content: "";
+  position: absolute;
+  top: -4px;
+  width: 40%;
+  background-color: #df2335;
+  height: 3px;
+}
+
+.carousel-capt h3{
+  font-size: 24px;
+  color: #fff;
+  font-family: bpg;
+}
+
+.carousel-capt p{
+  font-size: 17px;
+  color: #fff;
+  font-family: arial;
+}
+
+.carousel-capt a{
+  color: #fff;
+  font-size: 17px;
+  margin-top: 30px;
+  font-family: bpg;
+  background-color: #e23848;
+  display: inline-block;
+  padding: 15px 35px 9px 35px;
+}
+
+.sponsor img{
+  border-radius: 3px;
+  padding: 7px;
+  border:1px solid #ccc;
+  object-fit: contain;
+}
+
+.sponsor{
+  margin-top: 30px;
+}
+
+@media (max-width:1400px) {
+  .carousel-control-next, .carousel-control-prev {
+ 
+    width: 3%   !important;
+ 
+}
+}
+
+@media (max-width:764px) {
+  .carousel-control-next, .carousel-control-prev {
+ 
+    display: none;
+ 
+}
+
+
+
+#carouselExampleIndicators{
+  display: none;
+}
+}
+
+
+.counter{
+  border: 1px solid #e4ecff;
+  padding: 3px;
+  border-radius: 40px;
+}
+
+button:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+body.darkmode{
+  background-color: #000 !important;
+}
+
+.anime{
+ animation-name: shake;
+ animation-duration: .2s;
+ animation-iteration-count: 4;
+ /* animation-delay:  1s; */
+
+}
+
+@keyframes shake {
+  0%{border: 1px solid transparent; transform: scale(1);}
+  100%{border: 1px solid red; transform: scale(1.2);}
+}
